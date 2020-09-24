@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './header';
-import Contact from './Contact';
 import data from './yourdata';
 
 const ProjectPage = ({ path }) =>{
@@ -13,7 +12,7 @@ const ProjectPage = ({ path }) =>{
         <div className="about_contact">
           {images.map((image) => {
             return (
-              <img {...image}/>
+              <img {...image} alt=""/>
             );
           })}
         </div>

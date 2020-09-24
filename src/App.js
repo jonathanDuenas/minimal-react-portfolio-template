@@ -15,6 +15,8 @@ function App() {
         <Route path="/about">
           <About></About>
         </Route>
+
+        {/* Projects routes */}
         <Route path="/adoc" exact>
           <ProjectPage
             path="adoc"
@@ -23,6 +25,11 @@ function App() {
         <Route path="/amazing" exact>
           <ProjectPage
             path="amazing"
+          />
+        </Route>
+        <Route path="/boca-de-lobo" exact>
+          <ProjectPage
+            path="boca"
           />
         </Route>
       </Switch>

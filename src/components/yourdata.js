@@ -35,9 +35,9 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Boca de Lobo",
+      imageSrc: "assets/bc/bc1.jpg",
+      url: "/boca-de-lobo"
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
@@ -160,6 +160,36 @@ export default {
       {
         src: 'assets/amazing/us9.jpg',
         alt: 'image 1 us',
+      },
+    ],
+    boca: [
+      {
+        src: 'assets/bc/bc1.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/bc/bc2.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/bc/bc3.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/bc/bc4.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/bc/bc5.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/bc/bc6.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/bc/bc7.jpg',
+        alt: 'image 1 bc',
       },
     ],
   },
