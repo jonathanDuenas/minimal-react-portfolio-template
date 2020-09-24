@@ -32,6 +32,11 @@ function App() {
             path="boca"
           />
         </Route>
+        <Route path="/hope" exact>
+          <ProjectPage
+            path="hope"
+          />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

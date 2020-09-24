@@ -41,9 +41,9 @@ export default {
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Hope",
+      imageSrc: "assets/hope/hp1.jpg",
+      url: "/hope"
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
@@ -189,6 +189,36 @@ export default {
       },
       {
         src: 'assets/bc/bc7.jpg',
+        alt: 'image 1 bc',
+      },
+    ],
+    hope: [
+      {
+        src: 'assets/hope/hp1.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/hope/hp2.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/hope/hp3.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/hope/hp4.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/hope/hp5.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/hope/hp6.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/hope/hp7.jpg',
         alt: 'image 1 bc',
       },
     ],
