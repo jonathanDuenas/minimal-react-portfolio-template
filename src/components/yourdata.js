@@ -21,11 +21,11 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Adoc", //Project Title - Add Your Project Title Here
       // Image Size Should be (300X300 px)
-      imageSrc: "assets/photo.jpg",
+      imageSrc: "assets/adoc/flt1.jpg",
       //Project URL - Add Your Project Url Here
-      url: "/something"
+      url: "/adoc"
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -89,7 +89,43 @@ export default {
     }
   ],
 
-  // About Page
+  projectsData: {
+    adoc: [
+      {
+        src: 'assets/adoc/flt1.jpg',
+        alt: 'image 1 adoc',
+      },
+      {
+        src: 'assets/adoc/flt2.jpg',
+        alt: 'image 2 adoc',
+      },
+      {
+        src: 'assets/adoc/flt3.jpg',
+        alt: 'image 3 adoc',
+      },
+      {
+        src: 'assets/adoc/flt4.jpg',
+        alt: 'image 4 adoc',
+      },
+      {
+        src: 'assets/adoc/flt5.jpg',
+        alt: 'image 5 adoc',
+      },
+      {
+        src: 'assets/adoc/flt6.jpg',
+        alt: 'image 6 adoc',
+      },
+      {
+        src: 'assets/adoc/flt7.jpg',
+        alt: 'image 7 adoc',
+      },
+      {
+        src: 'assets/adoc/flt8.jpg',
+        alt: 'image 8 adoc',
+      },
+    ]
+  },
+    // About Page
   aboutTitle: "I make remarkable digital products",
   aboutPara:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 };
