@@ -37,6 +37,21 @@ function App() {
             path="hope"
           />
         </Route>
+        <Route path="/olimpiadas" exact>
+          <ProjectPage
+            path="olimpiadas"
+          />
+        </Route>
+        <Route path="/repartiendo" exact>
+          <ProjectPage
+            path="repartiendo"
+          />
+        </Route>
+        <Route path="/santana" exact>
+          <ProjectPage
+            path="santana"
+          />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

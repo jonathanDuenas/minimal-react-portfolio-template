@@ -47,16 +47,22 @@ export default {
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Olimpiadas",
+      imageSrc: "assets/olimpiadas/oes1.jpg",
+      url: "/olimpiadas"
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
-    }
+      title: "Repartiendo",
+      imageSrc: "assets/repartiendo/id1.jpg",
+      url: "/repartiendo"
+    },
+    {
+      id: 7, //DO NOT CHANGE THIS (Please)😅
+      title: "Santana",
+      imageSrc: "assets/santana/art1.jpg",
+      url: "/santana"
+    },
     // Paste more projects here from the template
 
     /*
@@ -222,6 +228,120 @@ export default {
         alt: 'image 1 bc',
       },
     ],
+    olimpiadas: [
+      {
+        src: 'assets/olimpiadas/oes1.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/olimpiadas/oes2.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/olimpiadas/oes3.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/olimpiadas/oes4.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/olimpiadas/oes5.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/olimpiadas/oes6.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/olimpiadas/oes7.jpg',
+        alt: 'image 1 bc',
+      },
+    ],
+    repartiendo: [
+      {
+        src: 'assets/repartiendo/id1.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id2.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id3.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id4.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id5.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id6.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id7.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id8.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/repartiendo/id9.jpg',
+        alt: 'image 1 bc',
+      },
+    ],
+    santana: [
+      {
+        src: 'assets/santana/art1.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art2.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art3.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art4.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art5.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art6.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art7.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art8.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art9.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art10.jpg',
+        alt: 'image 1 bc',
+      },
+      {
+        src: 'assets/santana/art11.jpg',
+        alt: 'image 1 bc',
+      },
+    ]
   },
     // About Page
   aboutTitle: "I make remarkable digital products",
