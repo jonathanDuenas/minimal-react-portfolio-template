@@ -1,18 +1,22 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 
 const Home = ({name, paragraph, authorImage})=>{
 
   return(
     <div>
       <div className="home_container">
-        <div className="home_head_wrapper">
-          < h1 > Hello I 'm <br></br> <span>{name}</span></h1>
-          <p>{paragraph}</p>
-        </div>
-        <div className="image_container">
-          <img src={authorImage} alt="Author"></img>
-          <div className="bg"></div>
-        </div>
+        <ReactPlayer
+          url={[
+            {src: 'assets/este.mp4', type: 'video/mp4'},
+          ]}
+          playing
+          loop
+          controls={false}
+          muted
+          width="100vw"
+          height="100vh"
+        />
       </div>
     </div>
   );
