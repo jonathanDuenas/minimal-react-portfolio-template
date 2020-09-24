@@ -18,6 +18,9 @@ const Home = ({name, paragraph, authorImage})=>{
           height="100%"
         />
       </div>
+      <img src="assets/webfinal.jpg" alt="" style={{
+        width: '100%',
+      }}/>
     </div>
   );
 }
