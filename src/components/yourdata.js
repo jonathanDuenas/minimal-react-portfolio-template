@@ -23,9 +23,9 @@ export default {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Project One", //Project Title - Add Your Project Title Here
       // Image Size Should be (300X300 px)
-      imageSrc: "https://via.placeholder.com/300",
+      imageSrc: "assets/photo.jpg",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/"
+      url: "/something"
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
