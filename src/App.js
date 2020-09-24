@@ -20,6 +20,11 @@ function App() {
             path="adoc"
           />
         </Route>
+        <Route path="/amazing" exact>
+          <ProjectPage
+            path="amazing"
+          />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

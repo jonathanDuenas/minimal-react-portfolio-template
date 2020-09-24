@@ -29,9 +29,9 @@ export default {
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Amazing",
+      imageSrc: "assets/amazing/us1.jpg",
+      url: "/amazing"
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
@@ -123,7 +123,45 @@ export default {
         src: 'assets/adoc/flt8.jpg',
         alt: 'image 8 adoc',
       },
-    ]
+    ],
+    amazing: [
+      {
+        src: 'assets/amazing/us1.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us2.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us3.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us4.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us5.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us6.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us7.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us8.jpg',
+        alt: 'image 1 us',
+      },
+      {
+        src: 'assets/amazing/us9.jpg',
+        alt: 'image 1 us',
+      },
+    ],
   },
     // About Page
   aboutTitle: "I make remarkable digital products",
