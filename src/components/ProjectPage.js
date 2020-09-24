@@ -9,7 +9,7 @@ const ProjectPage = ({ path }) =>{
     <div>
       <Header name={data.name} contactEmail={data.contactEmail}></Header>
       <div className="about_container">
-        <div className="about_contact">
+        <div className="project_images">
           {images.map((image) => {
             return (
               <img {...image} alt=""/>

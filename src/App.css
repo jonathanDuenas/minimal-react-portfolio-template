@@ -181,6 +181,11 @@ a{
   top:-20rem;
 }
 
+/* Projects */
+
+.project_images img{
+  width: 100%;
+}
 
 @media only screen and (max-width: 600px) {
   body{
